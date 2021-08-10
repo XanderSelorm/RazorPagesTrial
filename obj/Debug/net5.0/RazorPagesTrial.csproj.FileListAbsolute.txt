@@ -25,7 +25,6 @@ C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\RazorPagesTria
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\RazorPagesTrial.RazorCoreGenerate.cache
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -44,3 +43,5 @@ C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Fe
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Index copy.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Item.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Menu.cshtml.g.cs
+C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Partials\_Footer.cshtml.g.cs
+C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Confirmation.cshtml.g.cs

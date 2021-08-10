@@ -15629,8 +15629,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\MACWIN\\Projects\\ASP.Net\\RazorPagesTrial\\Pages\\Confirmation.cshtml",
+      "TargetPath": "Pages\\Confirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\MACWIN\\Projects\\ASP.Net\\RazorPagesTrial\\Pages\\Contact.cshtml",
       "TargetPath": "Pages\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MACWIN\\Projects\\ASP.Net\\RazorPagesTrial\\Pages\\Partials\\_Footer.cshtml",
+      "TargetPath": "Pages\\Partials\\_Footer.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15656,11 +15666,6 @@
     {
       "FilePath": "c:\\Users\\MACWIN\\Projects\\ASP.Net\\RazorPagesTrial\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\MACWIN\\Projects\\ASP.Net\\RazorPagesTrial\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
