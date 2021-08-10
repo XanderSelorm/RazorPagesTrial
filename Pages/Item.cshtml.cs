@@ -14,14 +14,14 @@ namespace RazorPagesTrial.Pages
 
         public MenuItem Item { get; private set; }
 
-        public void OnGet(int id)
+        public void OnGet(string slug)
         {
             var menuService = new MenuService();
 
             Item = menuService
                 .GetMenuItems()
-                .FirstOrDefault(x => x.Id.Equals(id));
-            Message = "The id is " + id;
+                .Find(x => x.Slug.Equals(slug));
+            Message = "The id is " + slug;
         }
     }
 }

@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RazorPagesTrial.Services;
 
 namespace RazorPagesTrial
 {
@@ -24,9 +26,14 @@ namespace RazorPagesTrial
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+            services.AddRazorPages().AddRazorPagesOptions(options => options
+                .Conventions
+                .AddPageRoute("/index", "home"));
             services.Configure<RazorViewEngineOptions>(options => options.PageViewLocationFormats
                 .Add("/Pages/Partials/{0}" + RazorViewEngine.ViewExtension));
+            services.Configure<RouteOptions>(options => options.ConstraintMap.Add(
+                "promo",
+                typeof(PromoNavigationConstraint)));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
