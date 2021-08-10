@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <p class="m-0 text-white">Copyright &copy; @DateTime.Now.Year RazorPagesTrial</p>
+        </div>
+        <div class="col-md-4">
+            <p class="m-0 text-white">Contact Info:</p>
+            <p class="m-0 text-white">Phone: +233 2454 25456 <br />Address: 1234 Test <br />Email: care@test.com</p>
+        </div>
+        <div class="col-md-4">
+            @if (IsSectionDefined("FooterThirdCol"))
+            {
+                RenderSection("FooterThirdCol");
+            }
+            else
+            {
+                <p class="m-0 text-white">
+                    Coffee Fact of the Day
+                </p>
+                <p class="m-0 text-white">
+                    More cups of coffee are drank every day than there are people on earth. <i>(May
+                        not be
+                        true)</i>
+                </p>
+            }
+
+        </div>
+    </div>
+</div>

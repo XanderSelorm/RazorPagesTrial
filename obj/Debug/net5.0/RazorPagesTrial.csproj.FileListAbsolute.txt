@@ -37,11 +37,12 @@ C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\ref\RazorPages
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\RazorPagesTrial.pdb
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\RazorPagesTrial.genruntimeconfig.cache
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\RazorPagesTrial.csproj.CopyComplete
-C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Partials\_NavBar.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Contact.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Feedback.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Index copy.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Item.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Menu.cshtml.g.cs
-C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Partials\_Footer.cshtml.g.cs
 C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Confirmation.cshtml.g.cs
+C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Shared\Components\PopularBrews\Default.cshtml.g.cs
+C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Shared\Partials\_Footer.cshtml.g.cs
+C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\obj\Debug\net5.0\Razor\Pages\Shared\Partials\_NavBar.cshtml.g.cs

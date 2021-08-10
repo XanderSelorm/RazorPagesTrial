@@ -1,38 +1,71 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - RazorPagesTrial</title>
-    <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
-        <link rel="stylesheet" href="~/css/wiredbrain.css" />
-    </environment>
-    <environment include="Production">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
-        <link rel="stylesheet" href="~/css/wiredbrain.min.css" />
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - RazorPagesTrial</title>
+        <environment include="Development">
+            <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+            <link rel="stylesheet" href="~/css/site.css" />
+            <link rel="stylesheet" href="~/css/wiredbrain.css" />
         </environment>
-</head>
-<body>
-    <header>
-        <partial name="_NavBar" />
-    </header>
-    <div id="main" class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+        <environment include="Production">
+            <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+            <link rel="stylesheet" href="~/css/site.css" />
+            <link rel="stylesheet" href="~/css/wiredbrain.min.css" />
+        </environment>
+    </head>
 
-    <footer class="border-top footer text-muted">
-        <partial name="_Footer" />
-    </footer>
+    <body>
+        <header>
+            <partial name="_NavBar" />
+        </header>
+        <div id="main" class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+        <footer class="py-5 bg-dark">
+            @* <partial name="_Footer" /> *@
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="m-0 text-white">Copyright &copy; @DateTime.Now.Year RazorPagesTrial</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="m-0 text-white">Contact Info:</p>
+                        <p class="m-0 text-white">Phone: +233 2454 25456 <br />Address: 1234 Test <br />Email:
+                            care@test.com</p>
+                    </div>
+                    <div class="col-md-4">
+                        @if (IsSectionDefined("FooterThirdCol"))
+                    {
+                        RenderSection("FooterThirdCol");
+                    }
+                    else
+                    {
+                            <p class="m-0 text-white">
+                                Coffee Fact of the Day
+                            </p>
+                            <p class="m-0 text-white">
+                                More cups of coffee are drank every day than there are people on earth. <i>(May
+                                    not be
+                                    true)</i>
+                            </p>
+                    }
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
-</body>
+    </body>
+
 </html>

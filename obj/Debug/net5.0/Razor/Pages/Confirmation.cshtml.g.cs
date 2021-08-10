@@ -19,8 +19,15 @@ using RazorPagesTrial;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\Pages\_ViewImports.cshtml"
+using RazorPagesTrial.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"15d3729d532b9e85a636a8f4e6e8d913b3c0f246", @"/Pages/Confirmation.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c94f5293e51dfcb688f17590c8e050eba07b2921", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a32ba94f243efc1bc071460dfcf768674e4c4b16", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Confirmation : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998

@@ -29,19 +29,8 @@
             <hr>
         </div>
         <div class="col-md-4">
-            <div class="card">
-                <h5 class="card-header">Nutrition Information</h5>
-                <div class="card-body">
-                    <p>Note: Nutrition information is an estimate only.  We back our goods fresh every day, so nutrition values may vary depending on preparation and serving size.</p>
-                    <ul>
-                        <li>Calories: 300</li>
-                        <li>Total Fat: 25%</li>
-                        <li>Saturated Fat: 15%</li>
-                        <li>Fiber: 20%</li>
-                        <li>Sugar: 25g</li>
-                    </ul>
-                </div>
-            </div>
+            <vc:popular-brews count="2" />
+            @await Component.InvokeAsync("PopularBrews", new { count = 2 })
         </div>
     </div>
 </div>

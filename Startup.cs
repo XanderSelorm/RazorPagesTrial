@@ -26,11 +26,15 @@ namespace RazorPagesTrial
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //         services.AddMvc()
+            // .AddRazorOptions(options => options
+            //     .ViewLocationFormats
+            //     .Add("/Pages/Shared/{0}.cshtml"));
             services.AddRazorPages().AddRazorPagesOptions(options => options
                 .Conventions
                 .AddPageRoute("/index", "home"));
             services.Configure<RazorViewEngineOptions>(options => options.PageViewLocationFormats
-                .Add("/Pages/Partials/{0}" + RazorViewEngine.ViewExtension));
+                .Add("/Pages/Shared/Partials/{0}" + RazorViewEngine.ViewExtension));
             services.Configure<RouteOptions>(options => options.ConstraintMap.Add(
                 "promo",
                 typeof(PromoNavigationConstraint)));

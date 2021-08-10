@@ -19,9 +19,16 @@ using RazorPagesTrial;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\MACWIN\Projects\ASP.Net\RazorPagesTrial\Pages\_ViewImports.cshtml"
+using RazorPagesTrial.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("RouteTemplate", "/thoughts/{token:promo}")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"abd2aaaf6ca259ef51ffd5ed33336ee4573075bd", @"/Pages/Feedback.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c94f5293e51dfcb688f17590c8e050eba07b2921", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a32ba94f243efc1bc071460dfcf768674e4c4b16", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Feedback : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("value", "1", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -65,7 +72,7 @@ using RazorPagesTrial;
             <p>We care about what you thoughts and feelings - let us know how we can better serve you.</p>
             <br />
             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd4633", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd4819", async() => {
                 WriteLiteral(@"
                 <div class=""control-group form-group"">
                     <div class=""controls"">
@@ -95,7 +102,7 @@ using RazorPagesTrial;
                     <div class=""controls"">
                         <select class=""form-control"">
                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd6449", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd6635", async() => {
                     WriteLiteral("Great");
                 }
                 );
@@ -111,7 +118,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd7699", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd7885", async() => {
                     WriteLiteral("Good");
                 }
                 );
@@ -127,7 +134,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd8948", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd9134", async() => {
                     WriteLiteral("Neutral");
                 }
                 );
@@ -143,7 +150,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd10200", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd10386", async() => {
                     WriteLiteral("Fair");
                 }
                 );
@@ -159,7 +166,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd11450", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd11636", async() => {
                     WriteLiteral("Poor");
                 }
                 );
@@ -183,7 +190,7 @@ using RazorPagesTrial;
                     <div class=""controls"">
                         <select class=""form-control"">
                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd13046", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd13232", async() => {
                     WriteLiteral("Great");
                 }
                 );
@@ -199,7 +206,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd14297", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd14483", async() => {
                     WriteLiteral("Good");
                 }
                 );
@@ -215,7 +222,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd15547", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd15733", async() => {
                     WriteLiteral("Neutral");
                 }
                 );
@@ -231,7 +238,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd16800", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd16986", async() => {
                     WriteLiteral("Fair");
                 }
                 );
@@ -247,7 +254,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd18050", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd18236", async() => {
                     WriteLiteral("Poor");
                 }
                 );
@@ -271,7 +278,7 @@ using RazorPagesTrial;
                     <div class=""controls"">
                         <select class=""form-control"">
                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd19629", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd19815", async() => {
                     WriteLiteral("Great");
                 }
                 );
@@ -287,7 +294,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd20880", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd21066", async() => {
                     WriteLiteral("Good");
                 }
                 );
@@ -303,7 +310,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd22130", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd22316", async() => {
                     WriteLiteral("Neutral");
                 }
                 );
@@ -319,7 +326,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd23383", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd23569", async() => {
                     WriteLiteral("Fair");
                 }
                 );
@@ -335,7 +342,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd24633", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd24819", async() => {
                     WriteLiteral("Poor");
                 }
                 );
@@ -359,7 +366,7 @@ using RazorPagesTrial;
                     <div class=""controls"">
                         <select class=""form-control"">
                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd26240", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd26426", async() => {
                     WriteLiteral("Great");
                 }
                 );
@@ -375,7 +382,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd27491", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd27677", async() => {
                     WriteLiteral("Good");
                 }
                 );
@@ -391,7 +398,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd28741", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd28927", async() => {
                     WriteLiteral("Neutral");
                 }
                 );
@@ -407,7 +414,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd29994", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd30180", async() => {
                     WriteLiteral("Fair");
                 }
                 );
@@ -423,7 +430,7 @@ using RazorPagesTrial;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd31244", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abd2aaaf6ca259ef51ffd5ed33336ee4573075bd31430", async() => {
                     WriteLiteral("Poor");
                 }
                 );
